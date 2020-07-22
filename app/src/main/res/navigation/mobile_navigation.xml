@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_bookshelf">
+
+    <fragment
+        android:id="@+id/navigation_bookshelf"
+        android:name="com.catfee.shareader.activity.ui.bookshelf.BookShelfFragment"
+        android:label="@string/title_bookshelf"
+        tools:layout="@layout/fragment_bookshelf" />
+
+    <fragment
+        android:id="@+id/navigation_bookstore"
+        android:name="com.catfee.shareader.activity.ui.bookstore.BookStoreFragment"
+        android:label="@string/title_bookstore"
+        tools:layout="@layout/fragment_bookstore" />
+
+    <fragment
+        android:id="@+id/navigation_friends"
+        android:name="com.catfee.shareader.activity.ui.friends.FriendsFragment"
+        android:label="@string/title_friends"
+        tools:layout="@layout/fragment_friends" />
+
+    <fragment
+        android:id="@+id/navigation_topic"
+        android:name="com.catfee.shareader.activity.ui.topic.TopicFragment"
+        android:label="@string/title_topic"
+        tools:layout="@layout/fragment_topic" />
+
+    <fragment
+        android:id="@+id/navigation_mine"
+        android:name="com.catfee.shareader.activity.ui.mine.MineFragment"
+        android:label="@string/title_mine"
+        tools:layout="@layout/fragment_mine" />
+
+
+</navigation>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Shareader</string>
+
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_bookshelf">书架</string>
+    <string name="title_bookstore">书城</string>
+    <string name="title_friends">书友圈</string>
+    <string name="title_topic">论坛</string>
+    <string name="title_mine">我的</string>
+</resources>
